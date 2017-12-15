@@ -4448,7 +4448,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_dUpy8OHQEeeDZq401lkalg">
       <baseItem xmi:id="_dUpy8eHQEeeDZq401lkalg" id="_8m0RcCFgEeaf7K3hWyGk1w" version="0.1" type="job"/>
-      <relatedItems xmi:id="_dUpy8uHQEeeDZq401lkalg" id="_K01CcE3AEeOwYf1xuHiFJA" version="Latest" type="property"/>
       <relatedItems xmi:id="_dUpy8-HQEeeDZq401lkalg" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_dUpy9OHQEeeDZq401lkalg" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_dUpy9eHQEeeDZq401lkalg" id="tic_word_titleCase" version="Latest" type="routine"/>
@@ -4490,6 +4489,7 @@
       <relatedItems xmi:id="_dUpzGeHQEeeDZq401lkalg" id="DataTypeUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_dUpzGuHQEeeDZq401lkalg" id="A2_standardizeaddressTstandardizerow_1" version="Latest" type="routine"/>
       <relatedItems xmi:id="_dUpzG-HQEeeDZq401lkalg" id="String_Split" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_kKUDMOHQEeeDZq401lkalg" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
     <migrationTask xmi:id="_EJk_oOAlEeeiBJJewynIuw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_EJk_oeAlEeeiBJJewynIuw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
