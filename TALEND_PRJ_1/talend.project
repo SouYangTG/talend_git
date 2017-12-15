@@ -4385,7 +4385,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_QJg-E-A_Eee5DLKkrwYuig">
       <baseItem xmi:id="_QJg-FOA_Eee5DLKkrwYuig" id="_pl7gMGZyEeeWJuoM5_Tj1Q" version="0.1" type="job"/>
-      <relatedItems xmi:id="_QJg-FeA_Eee5DLKkrwYuig" id="_K01CcE3AEeOwYf1xuHiFJA" version="Latest" type="property"/>
       <relatedItems xmi:id="_QJg-FuA_Eee5DLKkrwYuig" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_QJg-F-A_Eee5DLKkrwYuig" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_QJg-GOA_Eee5DLKkrwYuig" id="tic_word_titleCase" version="Latest" type="routine"/>
@@ -4427,6 +4426,7 @@
       <relatedItems xmi:id="_QJg-POA_Eee5DLKkrwYuig" id="DataTypeUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_QJg-PeA_Eee5DLKkrwYuig" id="A2_standardizeaddressTstandardizerow_1" version="Latest" type="routine"/>
       <relatedItems xmi:id="_QJg-PuA_Eee5DLKkrwYuig" id="String_Split" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_zar18OHQEeeDZq401lkalg" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_a3pLgOGwEeeDZq401lkalg">
       <baseItem xmi:id="_a3pLgeGwEeeDZq401lkalg" id="_nlSfoOGsEeeDZq401lkalg" version="0.1" type="job"/>
