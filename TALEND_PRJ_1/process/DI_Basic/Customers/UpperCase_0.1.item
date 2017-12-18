@@ -221,7 +221,7 @@
         <mapperTableEntries name="Number" expression="row1.Number " type="id_String" nullable="true"/>
         <mapperTableEntries name="Street" expression="row1.Street " type="id_String" nullable="true"/>
         <mapperTableEntries name="City" expression="row1.City " type="id_String" nullable="true"/>
-        <mapperTableEntries name="State" expression="row1.State " type="id_String" nullable="true"/>
+        <mapperTableEntries name="State" expression="StringHandling.UPCASE(row1.State) " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="First" type="id_String" nullable="true"/>
@@ -237,7 +237,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;D:/New folder/out.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;D:/New folder/CappedOut.csv&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
