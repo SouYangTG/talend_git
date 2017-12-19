@@ -4,6 +4,6 @@
     <contextParameter xmi:id="_TW0o4eTmEeeDZq401lkalg" comment="Outpu Directory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" type="id_String" value="D:/Talend job downloads/sample data/"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_TW0o4uTmEeeDZq401lkalg" confirmationNeeded="false" name="Production">
-    <contextParameter xmi:id="_TW0o4-TmEeeDZq401lkalg" comment="Outpu Directory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" type="id_String" value="D:/Talend job downloads/sample data/production/"/>
+    <contextParameter xmi:id="_TW0o4-TmEeeDZq401lkalg" comment="Outpu Directory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" type="id_String" value="D:/Talend job downloads/sample data/new_production/"/>
   </talendfile:ContextType>
 </xmi:XMI>
