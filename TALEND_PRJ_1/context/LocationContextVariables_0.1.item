@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_TW0o4OTmEeeDZq401lkalg" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_TW0o4eTmEeeDZq401lkalg" comment="Outpu Directory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" type="id_String" value="D:/Talend job downloads/sample data/"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_TW0o4uTmEeeDZq401lkalg" confirmationNeeded="false" name="Production">
+    <contextParameter xmi:id="_TW0o4-TmEeeDZq401lkalg" comment="Outpu Directory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" type="id_String" value="D:/Talend job downloads/sample data/production/"/>
+  </talendfile:ContextType>
+</xmi:XMI>
