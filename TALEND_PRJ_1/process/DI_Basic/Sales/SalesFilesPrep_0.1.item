@@ -251,7 +251,7 @@
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
     <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="&lt;b>Shop1Out&lt;/b>&lt;br>tFileOutputDelimited_2"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>Shop2Out&lt;/b>&lt;br>tFileOutputDelimited_2"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="Shopmetadata" name="tFileOutputDelimited_2">
       <column comment="" key="false" length="10" name="ShopName" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true">
@@ -329,7 +329,7 @@
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
     <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="&lt;b>Shop1Out&lt;/b>&lt;br>tFileOutputDelimited_3"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>Shop3Out&lt;/b>&lt;br>tFileOutputDelimited_3"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="Shopmetadata" name="tFileOutputDelimited_3">
       <column comment="" key="false" length="10" name="ShopName" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true">
