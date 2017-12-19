@@ -2,11 +2,11 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Production" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="Output Directory" name="OutputDir" prompt="OutputDir?" promptNeeded="false" type="id_String" value="D:/Talend job downloads/sample data/"/>
-    <contextParameter comment="Outpu Directory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" repositoryContextId="_TWoboOTmEeeDZq401lkalg" type="id_String" value="D:/Talend job downloads/sample data/"/>
+    <contextParameter comment="Output Directory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" repositoryContextId="_TWoboOTmEeeDZq401lkalg" type="id_String" value="D:/Talend job downloads/sample data/"/>
   </context>
   <context confirmationNeeded="false" name="Production">
     <contextParameter comment="Output Directory" name="OutputDir" prompt="OutputDir?" promptNeeded="false" type="id_String" value="D:/Talend job downloads/sample data/production/"/>
-    <contextParameter comment="Outpu Directory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" repositoryContextId="_TWoboOTmEeeDZq401lkalg" type="id_String" value="D:/Talend job downloads/sample data/new_production/"/>
+    <contextParameter comment="Output Directory" name="RepoOutputDir" prompt="RepoOutputDir?" promptNeeded="false" repositoryContextId="_TWoboOTmEeeDZq401lkalg" type="id_String" value="D:/Talend job downloads/sample data/new_production/"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="32" show="false"/>
