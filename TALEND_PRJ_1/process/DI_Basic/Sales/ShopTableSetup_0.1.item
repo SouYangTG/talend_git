@@ -12,6 +12,7 @@
     <contextParameter comment="" name="RetailCustomers_Encoding" prompt="RetailCustomers_Encoding?" promptNeeded="false" repositoryContextId="_d10YgOUAEeeDZq401lkalg" type="id_String" value="US-ASCII"/>
     <contextParameter comment="" name="RetailCustomers_RowSeparator" prompt="RetailCustomers_RowSeparator?" promptNeeded="false" repositoryContextId="_d10YgOUAEeeDZq401lkalg" type="id_String" value="&quot;\n&quot;"/>
     <contextParameter comment="" name="RetailCustomers_Header" prompt="RetailCustomers_Header?" promptNeeded="false" repositoryContextId="_d10YgOUAEeeDZq401lkalg" type="id_Integer" value="6"/>
+    <contextParameter comment="file location for shop file" name="ShopFileDir" prompt="ShopFileDir?" promptNeeded="false" type="id_String" value="D:/Talend job downloads/sample data/Sales/"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -201,8 +202,6 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_5x6agOUBEeeDZq401lkalg" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;D:/Talend job downloads/sample data/refProducts.csv&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
