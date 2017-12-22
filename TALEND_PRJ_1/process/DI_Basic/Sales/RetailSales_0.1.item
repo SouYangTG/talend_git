@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="MySQL_Con_AdditionalParams" prompt="MySQL_Con_AdditionalParams?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="MySQL_Con_Database" prompt="MySQL_Con_Database?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="training"/>
+    <contextParameter comment="" name="MySQL_Con_Login" prompt="MySQL_Con_Login?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="root"/>
+    <contextParameter comment="" name="MySQL_Con_Password" prompt="MySQL_Con_Password?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_Password" value="1QY6ZyNqCD4BAhKeqSkILQ=="/>
+    <contextParameter comment="" name="MySQL_Con_Port" prompt="MySQL_Con_Port?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="3306"/>
+    <contextParameter comment="" name="MySQL_Con_Server" prompt="MySQL_Con_Server?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="RetailCustomers_Encoding" prompt="RetailCustomers_Encoding?" promptNeeded="false" repositoryContextId="_d10YgOUAEeeDZq401lkalg" type="id_String" value="US-ASCII"/>
+    <contextParameter comment="" name="RetailCustomers_FieldSeparator" prompt="RetailCustomers_FieldSeparator?" promptNeeded="false" repositoryContextId="_d10YgOUAEeeDZq401lkalg" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="RetailCustomers_File" prompt="RetailCustomers_File?" promptNeeded="false" repositoryContextId="_d10YgOUAEeeDZq401lkalg" type="id_File" value="D:/Talend job downloads/sample data/refCustomer.csv"/>
+    <contextParameter comment="" name="RetailCustomers_Header" prompt="RetailCustomers_Header?" promptNeeded="false" repositoryContextId="_d10YgOUAEeeDZq401lkalg" type="id_Integer" value="6"/>
+    <contextParameter comment="" name="RetailCustomers_RowSeparator" prompt="RetailCustomers_RowSeparator?" promptNeeded="false" repositoryContextId="_d10YgOUAEeeDZq401lkalg" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="RetailProducts_Encoding" prompt="RetailProducts_Encoding?" promptNeeded="false" repositoryContextId="_mhHfQOUBEeeDZq401lkalg" type="id_String" value="US-ASCII"/>
+    <contextParameter comment="" name="RetailProducts_FieldSeparator" prompt="RetailProducts_FieldSeparator?" promptNeeded="false" repositoryContextId="_mhHfQOUBEeeDZq401lkalg" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="RetailProducts_File" prompt="RetailProducts_File?" promptNeeded="false" repositoryContextId="_mhHfQOUBEeeDZq401lkalg" type="id_File" value="D:/Talend job downloads/sample data/refProducts.csv"/>
+    <contextParameter comment="" name="RetailProducts_RowSeparator" prompt="RetailProducts_RowSeparator?" promptNeeded="false" repositoryContextId="_mhHfQOUBEeeDZq401lkalg" type="id_String" value="&quot;\n&quot;"/>
+  </context>
   <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
@@ -110,4 +128,41 @@
     <routinesParameter id="_EQPoUOAlEeeiBJJewynIuw" name="TalendStringUtil"/>
     <routinesParameter id="_EQNMEOAlEeeiBJJewynIuw" name="TalendString"/>
   </parameters>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlInput_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_hmiEcOXZEee6WNcqjnw__A" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQL_Con_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQL_Con_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_Con_Database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQL_Con_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kueL4NR1ofjUjc1LoyqZmcKq6Ty1sGG1WUY="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select id, name from employee&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQL_Con_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tMysqlInput_1"/>
+  </node>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
 </talendfile:ProcessType>
