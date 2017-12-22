@@ -4829,6 +4829,7 @@
       <relatedItems xmi:id="_4vErVOazEee6WNcqjnw__A" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_MNfLwOa0Eee6WNcqjnw__A" id="_2gyT4OT0EeeDZq401lkalg - Shopmetadata" version="Latest" type="schema"/>
       <relatedItems xmi:id="_hOCNYOa0Eee6WNcqjnw__A" id="_5x6agOUBEeeDZq401lkalg - Productmetadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_5sFQoOa0Eee6WNcqjnw__A" id="_D1tQIOUBEeeDZq401lkalg - CustomerMetadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_EJk_oOAlEeeiBJJewynIuw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_EJk_oeAlEeeiBJJewynIuw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
