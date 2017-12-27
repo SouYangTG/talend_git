@@ -4855,7 +4855,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_mU1wkOsREee6WNcqjnw__A">
       <baseItem xmi:id="_mU1wkesREee6WNcqjnw__A" id="_WQVG8IrYEd2xUKNKyEp6fg" version="0.1" type="job"/>
-      <relatedItems xmi:id="_mU1wk-sREee6WNcqjnw__A" id="_ONJTAAhiEeCYWb7D_hg3dw" version="Latest" type="property"/>
       <relatedItems xmi:id="_mU1wlOsREee6WNcqjnw__A" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_mU1wlesREee6WNcqjnw__A" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_mU1wlusREee6WNcqjnw__A" id="TalendString" version="Latest" type="routine"/>
