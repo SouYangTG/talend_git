@@ -131,6 +131,7 @@
   </parameters>
   <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1800" show="false"/>
     <elementParameter field="TABLE" name="VALUES" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
@@ -235,6 +236,7 @@
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
@@ -276,6 +278,7 @@
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
