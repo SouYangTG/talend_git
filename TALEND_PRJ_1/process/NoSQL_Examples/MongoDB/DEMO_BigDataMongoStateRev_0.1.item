@@ -7,6 +7,12 @@
     <contextParameter comment="" name="MySQL_Con_Password" prompt="MySQL_Con_Password?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_Password" value="1QY6ZyNqCD4BAhKeqSkILQ=="/>
     <contextParameter comment="" name="MySQL_Con_Database" prompt="MySQL_Con_Database?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="training"/>
     <contextParameter comment="" name="MySQL_Con_Login" prompt="MySQL_Con_Login?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="root"/>
+    <contextParameter comment="" name="MySQL_Con_AMC_AdditionalParams" prompt="MySQL_Con_AMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_fD5o0OstEee6WNcqjnw__A" type="id_String" value=""/>
+    <contextParameter comment="" name="MySQL_Con_AMC_Port" prompt="MySQL_Con_AMC_Port?" promptNeeded="false" repositoryContextId="_fD5o0OstEee6WNcqjnw__A" type="id_String" value="3306"/>
+    <contextParameter comment="" name="MySQL_Con_AMC_Login" prompt="MySQL_Con_AMC_Login?" promptNeeded="false" repositoryContextId="_fD5o0OstEee6WNcqjnw__A" type="id_String" value="root"/>
+    <contextParameter comment="" name="MySQL_Con_AMC_Database" prompt="MySQL_Con_AMC_Database?" promptNeeded="false" repositoryContextId="_fD5o0OstEee6WNcqjnw__A" type="id_String" value="amc"/>
+    <contextParameter comment="" name="MySQL_Con_AMC_Password" prompt="MySQL_Con_AMC_Password?" promptNeeded="false" repositoryContextId="_fD5o0OstEee6WNcqjnw__A" type="id_Password" value="1QY6ZyNqCD4BAhKeqSkILQ=="/>
+    <contextParameter comment="" name="MySQL_Con_AMC_Server" prompt="MySQL_Con_AMC_Server?" promptNeeded="false" repositoryContextId="_fD5o0OstEee6WNcqjnw__A" type="id_String" value="localhost"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;]}"/>
@@ -49,14 +55,14 @@
     <elementParameter field="TEXT" name="URL" value=""/>
     <elementParameter field="TABLE" name="DRIVER_JAR"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value=""/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQL_Con_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQL_Con_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_Con_Database"/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQL_Con_AMC_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQL_Con_AMC_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_Con_AMC_Database"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQL_Con_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQL_Con_AMC_AdditionalParams"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value=""/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQL_Con_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kueL4NR1ofjUjc1LoyqZmcKq6Ty1sGG1WUY="/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQL_Con_AMC_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kueL4NR1ofjUjdkBDDmogON9NJIkWNi8bWY="/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;tStatCatcher&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;tLogCatcher&quot;"/>
@@ -66,7 +72,7 @@
     <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
     <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_hmiEcOXZEee6WNcqjnw__A"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_PFCqUOsrEee6WNcqjnw__A"/>
     <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
     <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
     <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false"/>
