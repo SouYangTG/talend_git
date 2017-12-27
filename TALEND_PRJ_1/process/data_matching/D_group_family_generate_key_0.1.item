@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:tdqmatching="http://www.talend.org/tdqmatching" defaultContext="Default">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="MySQL_Con_Server" prompt="MySQL_Con_Server?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="MySQL_Con_Port" prompt="MySQL_Con_Port?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="3306"/>
+    <contextParameter comment="" name="MySQL_Con_AdditionalParams" prompt="MySQL_Con_AdditionalParams?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="MySQL_Con_Password" prompt="MySQL_Con_Password?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_Password" value="1QY6ZyNqCD4BAhKeqSkILQ=="/>
+    <contextParameter comment="" name="MySQL_Con_Database" prompt="MySQL_Con_Database?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="training"/>
+    <contextParameter comment="" name="MySQL_Con_Login" prompt="MySQL_Con_Login?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="root"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
@@ -55,15 +62,15 @@
     <elementParameter field="TEXT" name="URL" value=""/>
     <elementParameter field="TABLE" name="DRIVER_JAR"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value=""/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQL_Con_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQL_Con_Port"/>
     <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;cif&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_Con_Database"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQL_Con_AdditionalParams"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value=""/>
-    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="pphwy87hqwU="/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQL_Con_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kueL4NR1ofjUjc1LoyqZmcKq6Ty1sGG1WUY="/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;"/>
@@ -86,7 +93,7 @@
     <elementParameter field="CHECK" name="STATS_DEFAULT_PROJECTSETTING" value="true"/>
     <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE" value=""/>
     <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_ONJTAAhiEeCYWb7D_hg3dw"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_hmiEcOXZEee6WNcqjnw__A"/>
     <routinesParameter id="_lXWSwDjIEeCzEJHrMHoE0g" name="DQTechnical"/>
     <routinesParameter id="_lWqWQDjIEeCzEJHrMHoE0g" name="DataOperation"/>
     <routinesParameter id="_lXOW8DjIEeCzEJHrMHoE0g" name="DataQuality"/>

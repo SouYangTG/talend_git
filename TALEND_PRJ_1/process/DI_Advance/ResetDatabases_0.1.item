@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="MySQL_Con_Server" prompt="MySQL_Con_Server?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="MySQL_Con_Port" prompt="MySQL_Con_Port?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="3306"/>
+    <contextParameter comment="" name="MySQL_Con_AdditionalParams" prompt="MySQL_Con_AdditionalParams?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="MySQL_Con_Password" prompt="MySQL_Con_Password?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_Password" value="1QY6ZyNqCD4BAhKeqSkILQ=="/>
+    <contextParameter comment="" name="MySQL_Con_Database" prompt="MySQL_Con_Database?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="training"/>
+    <contextParameter comment="" name="MySQL_Con_Login" prompt="MySQL_Con_Login?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="root"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;]}"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
@@ -38,14 +45,14 @@
     <elementParameter field="TEXT" name="URL" value=""/>
     <elementParameter field="TABLE" name="DRIVER_JAR"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value=""/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;cif&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQL_Con_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQL_Con_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_Con_Database"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQL_Con_AdditionalParams"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value=""/>
-    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="pphwy87hqwU="/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQL_Con_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kueL4NR1ofjUjc1LoyqZmcKq6Ty1sGG1WUY="/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;"/>
@@ -55,7 +62,7 @@
     <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
     <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_ONJTAAhiEeCYWb7D_hg3dw"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_hmiEcOXZEee6WNcqjnw__A"/>
     <routinesParameter id="_i_KCIFqREeKWJ_OZXqLpIg" name="DataOperation"/>
     <routinesParameter id="_i_TME1qREeKWJ_OZXqLpIg" name="Mathematical"/>
     <routinesParameter id="_i_c9E1qREeKWJ_OZXqLpIg" name="Numeric"/>

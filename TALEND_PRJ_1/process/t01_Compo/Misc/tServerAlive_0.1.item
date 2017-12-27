@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="MySQL_Con_Server" prompt="MySQL_Con_Server?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="MySQL_Con_Port" prompt="MySQL_Con_Port?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="3306"/>
+    <contextParameter comment="" name="MySQL_Con_AdditionalParams" prompt="MySQL_Con_AdditionalParams?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="MySQL_Con_Password" prompt="MySQL_Con_Password?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_Password" value="1QY6ZyNqCD4BAhKeqSkILQ=="/>
+    <contextParameter comment="" name="MySQL_Con_Database" prompt="MySQL_Con_Database?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="training"/>
+    <contextParameter comment="" name="MySQL_Con_Login" prompt="MySQL_Con_Login?" promptNeeded="false" repositoryContextId="_5hNlkOaBEee6WNcqjnw__A" type="id_String" value="root"/>
+  </context>
   <parameters>
     <elementParameter field="DIRECTORY" name="COMP_DEFAULT_FILE_DIR" value="/home/nfrancisco/Talend/Logiciels/TOS/4.0.0M3/Install/TOS-All-r37054-V4.0.0M3/workspace" contextMode="false"/>
     <elementParameter field="DIRECTORY" name="COMP_DEFAULT_PROJECT_DIR" value="/home/nfrancisco/Talend/Logiciels/TOS/4.0.0M3/Install/TOS-All-r37054-V4.0.0M3/workspace/TalendDemoJava" contextMode="false"/>
@@ -55,15 +62,15 @@
     <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true" contextMode="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tMysqlOutput" contextMode="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5" contextMode="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;" contextMode="false"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" contextMode="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQL_Con_Server" contextMode="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQL_Con_Port" contextMode="false"/>
     <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" contextMode="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;cif&quot;" contextMode="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_Con_Database" contextMode="false"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" contextMode="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;" contextMode="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQL_Con_AdditionalParams" contextMode="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="" contextMode="false"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;" contextMode="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="pphwy87hqwU=" contextMode="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQL_Con_Login" contextMode="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kueL4NR1ofjUjc1LoyqZmcKq6Ty1sGG1WUY=" contextMode="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" contextMode="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" contextMode="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" contextMode="false"/>
@@ -81,7 +88,7 @@
     <elementParameter field="TEXT" name="DRIVER_CLASS" value=""/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_ONJTAAhiEeCYWb7D_hg3dw"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_hmiEcOXZEee6WNcqjnw__A"/>
     <routinesParameter id="_BzsnoJWBEd2-2urAiuZBEg" name="DataOperation"/>
     <routinesParameter id="_B9YvIJWBEd2-2urAiuZBEg" name="Mathematical"/>
     <routinesParameter id="_B9rqE5WBEd2-2urAiuZBEg" name="Numeric"/>
