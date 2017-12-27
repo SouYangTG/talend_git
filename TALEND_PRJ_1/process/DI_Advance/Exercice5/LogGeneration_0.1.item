@@ -77,21 +77,21 @@
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
     <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
     <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_hmiEcOXZEee6WNcqjnw__A" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_PFCqUOsrEee6WNcqjnw__A" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tMysqlOutput"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
     <elementParameter field="TEXT" name="URL" value="" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQL_Con_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQL_Con_Port"/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQL_Con_AMC_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQL_Con_AMC_Port"/>
     <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_Con_Database"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_Con_AMC_Database"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQL_Con_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQL_Con_AMC_AdditionalParams"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQL_Con_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kueL4NR1ofjUjc1LoyqZmcKq6Ty1sGG1WUY="/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQL_Con_AMC_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kueL4NR1ofjUjdkBDDmogON9NJIkWNi8bWY="/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;tStatCatcher&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;tLogCatcher&quot;"/>
