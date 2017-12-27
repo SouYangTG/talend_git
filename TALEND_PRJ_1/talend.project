@@ -4717,6 +4717,9 @@
       <relatedItems xmi:id="_dvAMjuXJEee6WNcqjnw__A" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_dvAMj-XJEee6WNcqjnw__A" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_dvAMkOXJEee6WNcqjnw__A" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_UdlJYOs4Eee6WNcqjnw__A" id="_5hNlkOaBEee6WNcqjnw__A" version="Latest" type="context"/>
+      <relatedItems xmi:id="_UdlJYes4Eee6WNcqjnw__A" id="_fD5o0OstEee6WNcqjnw__A" version="Latest" type="context"/>
+      <relatedItems xmi:id="_UdlJYus4Eee6WNcqjnw__A" id="_PFCqUOsrEee6WNcqjnw__A" version="Latest" type="property"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_wWe_kOZ6Eee6WNcqjnw__A">
       <baseItem xmi:id="_wWe_keZ6Eee6WNcqjnw__A" id="_ke1OYOZ1Eee6WNcqjnw__A" version="0.1" type="job"/>
