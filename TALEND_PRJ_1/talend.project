@@ -5004,8 +5004,8 @@
       <relatedItems xmi:id="_KcjYQe6MEeed3pBdhvpCag" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_KcjYQu6MEeed3pBdhvpCag" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_KcjYQ-6MEeed3pBdhvpCag" id="TalendStringUtil" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_aEGbMO6UEeed3pBdhvpCag" id="_nJ96sO6TEeed3pBdhvpCag" version="Latest" type="joblet"/>
       <relatedItems xmi:id="_aEGbMe6UEeed3pBdhvpCag" id="_D1ZokO6NEeed3pBdhvpCag" version="Latest" type="joblet"/>
+      <relatedItems xmi:id="_tW3sYO6UEeed3pBdhvpCag" id="_eBn84P7xEeSgjrPDZFTtUw - customers_metadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_EePxQO6NEeed3pBdhvpCag">
       <baseItem xmi:id="_EePxQe6NEeed3pBdhvpCag" id="_D1ZokO6NEeed3pBdhvpCag" version="0.1" type="joblet"/>
