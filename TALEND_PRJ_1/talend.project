@@ -5043,6 +5043,7 @@
       <relatedItems xmi:id="_qlEvr-6TEeed3pBdhvpCag" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_qlEvsO6TEeed3pBdhvpCag" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_qlEvse6TEeed3pBdhvpCag" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_pzS38O6UEeed3pBdhvpCag" id="_eBn84P7xEeSgjrPDZFTtUw - customers_metadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_EJk_oOAlEeeiBJJewynIuw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_EJk_oeAlEeeiBJJewynIuw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
