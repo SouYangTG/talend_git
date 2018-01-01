@@ -216,7 +216,7 @@
       <elementValue elementRef="ORDER" value="asc"/>
     </elementParameter>
     <elementParameter field="CHECK" name="EXTERNAL" value="true"/>
-    <elementParameter field="DIRECTORY" name="TEMPFILE" value="&quot;D:/New folder/temp&quot;"/>
+    <elementParameter field="DIRECTORY" name="TEMPFILE" value="&quot;D:/New folder/temp&quot;+((Integer)globalMap.get(&quot;tCollector_1_THREAD_ID&quot;))"/>
     <elementParameter field="CHECK" name="CREATEDIR" value="true"/>
     <elementParameter field="TEXT" name="EXTERNAL_SORT_BUFFERSIZE" value="1000000"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
