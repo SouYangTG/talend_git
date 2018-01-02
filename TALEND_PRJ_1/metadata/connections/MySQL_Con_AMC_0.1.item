@@ -12,6 +12,9 @@
     <taggedValue xmi:id="_xOQnQOXZEee6WNcqjnw__A" tag="DB ProductName" value="MySQL"/>
     <taggedValue xmi:id="_xOQnQeXZEee6WNcqjnw__A" tag="DB ProductVersion" value="5.7.20-log"/>
     <taggedValue xmi:id="_xOQnQuXZEee6WNcqjnw__A" tag="DB IdentifierQuoteString" value="`"/>
+    <queries xmi:id="_jhPw8O_aEeed3pBdhvpCag">
+      <query xmi:id="_jhPw8u_aEeed3pBdhvpCag" id="_jhPw8e_aEeed3pBdhvpCag" label="SelectAll" value="select customers.id,customers.FirstName,customers.Name,customers.Age &#xA;from customers"/>
+    </queries>
     <parameters xmi:id="_xN2XkeXZEee6WNcqjnw__A" key="CONN_PARA_KEY_USERNAME" value="context.MySQL_Con_AMC_Login"/>
     <parameters xmi:id="_XiRGwOZ0Eee6WNcqjnw__A" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
