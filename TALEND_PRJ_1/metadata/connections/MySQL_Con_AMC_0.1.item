@@ -182,7 +182,7 @@
         <sqlDataType xmi:id="_lqVNguy5Eeed3pBdhvpCag" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
       </feature>
     </ownedElement>
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_u5LvAO_ZEeed3pBdhvpCag" name="customers" id="_u5LH8O_ZEeed3pBdhvpCag" label="customers" tableType="TABLE">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_u5LvAO_ZEeed3pBdhvpCag" name="customers" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_u5LH8O_ZEeed3pBdhvpCag" label="customers" tableType="TABLE">
       <taggedValue xmi:id="_u5MWEO_ZEeed3pBdhvpCag" tag="Comment" value=""/>
       <feature xsi:type="relational:TdColumn" xmi:id="_u5MWEu_ZEeed3pBdhvpCag" name="id" label="id" length="10" sourceType="INT" talendType="id_Integer">
         <taggedValue xmi:id="_u5MWE-_ZEeed3pBdhvpCag" tag="Comment" value=""/>
