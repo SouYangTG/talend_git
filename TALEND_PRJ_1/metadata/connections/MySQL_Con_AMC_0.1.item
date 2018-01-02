@@ -15,6 +15,15 @@
     <queries xmi:id="_jhPw8O_aEeed3pBdhvpCag">
       <query xmi:id="_jhPw8u_aEeed3pBdhvpCag" id="_jhPw8e_aEeed3pBdhvpCag" label="SelectAll" value="select customers.id,customers.FirstName,customers.Name,customers.Age &#xA;from customers"/>
     </queries>
+    <cdcConns xmi:id="_LkMFcO_bEeed3pBdhvpCag">
+      <cdcTypes xmi:id="_LkMsgO_bEeed3pBdhvpCag" linkDB="_hmiEcOXZEee6WNcqjnw__A" cdcConnection="_LkMFcO_bEeed3pBdhvpCag">
+        <subscribers xmi:id="_LkQW4e_bEeed3pBdhvpCag" name="TSUBSCRIBERS" id="_LkQW4O_bEeed3pBdhvpCag" label="TSUBSCRIBERS" system="true">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LkQW4u_bEeed3pBdhvpCag" name="TALEND_CDC_TABLE_TO_WATCH" label="TALEND_CDC_TABLE_TO_WATCH" length="35" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LkQW4-_bEeed3pBdhvpCag" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LkQW5O_bEeed3pBdhvpCag" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false"/>
+        </subscribers>
+      </cdcTypes>
+    </cdcConns>
     <parameters xmi:id="_xN2XkeXZEee6WNcqjnw__A" key="CONN_PARA_KEY_USERNAME" value="context.MySQL_Con_AMC_Login"/>
     <parameters xmi:id="_XiRGwOZ0Eee6WNcqjnw__A" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
