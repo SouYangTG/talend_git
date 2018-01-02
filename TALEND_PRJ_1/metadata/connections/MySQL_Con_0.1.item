@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_xN1wgOXZEee6WNcqjnw__A" name="MySQL_Con" id="_hmiEcOXZEee6WNcqjnw__A" label="MySQL_Con" dataPackage="_UcyScOsoEee6WNcqjnw__A" ContextMode="true" ContextId="_5hNlkOaBEee6WNcqjnw__A" contextName="Default" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/training?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="context.MySQL_Con_Port" Username="context.MySQL_Con_Login" Password="context.MySQL_Con_Password" ServerName="context.MySQL_Con_Server" DatasourceName="" FileFieldName="" SID="context.MySQL_Con_Database" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.MySQL_Con_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_xN2XkOXZEee6WNcqjnw__A" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_xOAvoOXZEee6WNcqjnw__A" tag="package filter" value=""/>
@@ -15,5 +15,25 @@
     <parameters xmi:id="_xN2XkeXZEee6WNcqjnw__A" key="CONN_PARA_KEY_USERNAME" value="context.MySQL_Con_Login"/>
     <parameters xmi:id="_XiRGwOZ0Eee6WNcqjnw__A" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_UcyScOsoEee6WNcqjnw__A" name="training" dataManager="_xN1wgOXZEee6WNcqjnw__A"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_UcyScOsoEee6WNcqjnw__A" name="training" dataManager="_xN1wgOXZEee6WNcqjnw__A">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_XfNF8O_bEeed3pBdhvpCag" name="tsubscribers" id="_XfMe4O_bEeed3pBdhvpCag" label="tsubscribers" tableType="TABLE">
+      <taggedValue xmi:id="_XfNF8e_bEeed3pBdhvpCag" tag="Comment" value=""/>
+      <taggedValue xmi:id="_XfNF8u_bEeed3pBdhvpCag" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_XfNF8-_bEeed3pBdhvpCag" name="TALEND_CDC_TABLE_TO_WATCH" label="TALEND_CDC_TABLE_TO_WATCH" length="35" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <taggedValue xmi:id="_XfNF9O_bEeed3pBdhvpCag" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_XfNF9e_bEeed3pBdhvpCag" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_XfNF9u_bEeed3pBdhvpCag" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_XfNF9-_bEeed3pBdhvpCag" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <taggedValue xmi:id="_XfNF-O_bEeed3pBdhvpCag" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_XfNF-e_bEeed3pBdhvpCag" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_XfNF-u_bEeed3pBdhvpCag" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_XfNF--_bEeed3pBdhvpCag" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="19" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_XfNF_O_bEeed3pBdhvpCag" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_XfNF_e_bEeed3pBdhvpCag" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_XfNF_u_bEeed3pBdhvpCag" name="DATETIME" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
